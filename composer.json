@@ -1,7 +1,8 @@
 {
   "require": {
     "php": ">=5.5",
-    "yiisoft/yii": "1.1.*"
+    "yiisoft/yii": "1.1.*",
+    "svyatov/yii-shortcut": "^2.0"
   } ,
   "config":{
     "vendor-dir": "vendor"

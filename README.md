@@ -1,1 +1,1 @@
-# Yii form/ajax example
+# Yii form. Ajax example

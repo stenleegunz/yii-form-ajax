@@ -1,0 +1,9 @@
+{
+  "require": {
+    "php": ">=5.5",
+    "yiisoft/yii": "1.1.*"
+  } ,
+  "config":{
+    "vendor-dir": "vendor"
+  }
+}

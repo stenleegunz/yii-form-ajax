@@ -25,6 +25,8 @@ return [
     'import' => [
         'application.models.*',
         'application.components.*',
+        'ext.shortcut.Y',
+        'ext.helpers.*',
     ],
 
     // application components
@@ -62,6 +64,13 @@ return [
             'class'=>'ext.bootstrap.components.Bootstrap',
         ],
 
+    ],
+
+    'behaviors' => [
+        ['class' => 'application.extensions.CorsBehavior',
+            'route' => ['site/MathNumbers'],
+            'allowOrigin' => '*'
+        ],
     ],
 
     // application-level parameters that can be accessed

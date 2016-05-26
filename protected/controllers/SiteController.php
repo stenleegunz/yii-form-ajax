@@ -4,7 +4,7 @@ class SiteController extends BootstrapController
 {
 	public function actionIndex()
 	{
-		$this->render('index');
+		$this->redirect('/site/test');
 	}
 
 	public function actionTest()

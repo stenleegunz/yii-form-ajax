@@ -18,7 +18,7 @@ class SiteController extends BootstrapController
 		if (Y::isPostRequest($_REQUEST)) {
 			Y::endJson(MathModel::mathNumbers(Y::getPost('firstNumber'), Y::getPost('secondNumber')));
 		} else {
-			Y::endJson(['error' => 'Не верный формат запроса']);
+			throw new CHttpException(400, 'Bad Request');
 		}
 
 	}

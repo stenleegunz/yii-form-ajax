@@ -69,7 +69,7 @@ return [
     'behaviors' => [
         ['class' => 'application.extensions.CorsBehavior',
             'route' => ['site/MathNumbers'],
-            'allowOrigin' => '*'
+            'allowOrigin' => 'ajax-test.com'
         ],
     ],
 

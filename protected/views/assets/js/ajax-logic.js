@@ -32,7 +32,7 @@
                             }
                         })
                         .fail(function (error) {
-                            $('<span class="label label-important">' + error + '</span>')
+                            $('<span class="label label-important">' + error.statusText + ' ' + error.status + '</span>')
                                 .insertAfter(labelInfo);
                         });
                 } else {
